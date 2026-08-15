@@ -1,5 +1,4 @@
 <?php
-/* Đoạn mã xử lý PHP. */
 
 require_once __DIR__ . '/../partials/header.php';
 require_once __DIR__ . '/../partials/footer.php';
@@ -37,9 +36,6 @@ if ($pdo instanceof PDO) {
 
 ?>
 
-<!--
-    Đoạn mã HTML trình bày nội dung trang web.
--->
 <?php render_page_header(); ?>
 
 <?php if (!empty($latest_quote)): ?>
