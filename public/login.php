@@ -1,5 +1,5 @@
 <?php
-/* Đoạn mã xử lý PHP. */
+
 
 define('TITLE', 'Login');
 
@@ -26,9 +26,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 }
 ?>
 
-<!--
-    Đoạn mã HTML trình bày nội dung trang web.
--->
 <?php render_page_header(); ?>
 
 <?php if (!empty($error_message)): ?>
