@@ -1,5 +1,4 @@
 <?php
-/* Đoạn mã xử lý PHP. */
 
 define('TITLE', 'Hiệu chỉnh Trích dẫn');
 
@@ -83,9 +82,7 @@ if ($has_access) {
 }
 ?>
 
-<!--
-    Đoạn mã HTML trình bày nội dung trang web.
--->
+
 <?php render_page_header(); ?>
 
 <h2>Hiệu chỉnh Trích dẫn</h2>
