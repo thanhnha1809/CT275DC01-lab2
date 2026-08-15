@@ -1,6 +1,5 @@
 <?php
 
-
 define('TITLE', 'Thêm một Trích dẫn');
 
 require_once __DIR__ . '/../partials/header.php';
