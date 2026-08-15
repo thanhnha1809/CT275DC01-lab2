@@ -64,7 +64,8 @@ if ($pdo instanceof PDO) {
 <p>
     <a href="index.php">Mới nhất</a> <->
         <a href="index.php?random=true">Ngẫu nhiên</a> <->
-            <a href="index.php?favorite=true">Yêu thích</a>
+            <a href="index.php?favorite=true">Yêu thích</a><->
+                <a href="search.php?">Tìm kiếm</a>
 </p>
 
 <?php render_page_footer(); ?>
