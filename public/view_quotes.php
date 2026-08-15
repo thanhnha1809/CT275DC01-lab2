@@ -43,7 +43,7 @@ if ($has_access) {
                 <p>
                     <strong>Quản trị Trích dẫn:</strong>
                     <a href="edit_quote.php?id=<?= urlencode($quote['id']) ?>">Sửa</a> &lt;-&gt;
-                   
+                    <a href="delete_quote.php?id=<?= urlencode($quote['id']) ?>">Xóa</a>
                 </p>
             </div>
             <br>
