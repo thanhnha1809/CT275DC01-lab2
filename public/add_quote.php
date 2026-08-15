@@ -1,5 +1,5 @@
 <?php
-/* Đoạn mã xử lý PHP. */
+
 
 define('TITLE', 'Thêm một Trích dẫn');
 
